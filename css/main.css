@@ -1,0 +1,44 @@
+
+h1 {
+	margin-bottom:50px;
+}
+
+input {
+	margin-bottom:20px;
+}
+
+li {
+	list-style-type: none;
+	text-align:left;
+	font-size:20px;
+}
+
+.background {
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#image {
+	height: 45px;
+	width: 45px;
+}
+
+.text {
+	float:left;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.critic {
+	font-size: 20px;
+}
+.title,
+.critic {
+	text-align: center;
+	color: orange;
+}
+

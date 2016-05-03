@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="UTF-8">
+
+	<!-- CSS -->
+	<link rel = "stylesheet" href="css/main.css">
+
+	<!-- CSS Bootstrap -->
+	<link rel = "stylesheet" href="css/bootstrap.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+</head>
+
+<body class='background'>
+
+<div class='text'>
+	<div class="container">
+		<div class="row">
+			<div class='col-md-5 col-md-offset-4'>
+					<h1 class = 'title'>San Francisco Giants Fan Page</h1>
+				<h3 class = 'critic'> How will the Giants do in 2016? Leave a comment below. </h3>
+
+				<form id="todoForm">
+					<div class="form-group">
+						<input id="username" class="form-control" placeholder="Name" onkeydown="return searchKeyPress(event)" >
+					</div>
+					<div class="form-group">
+						<textarea id="comment" class="form-control" placeholder="comment" onkeydown="return searchKeyPress(event)"></textarea>
+					</div>
+					<div class="form-group">
+						<button type="button" id="button" onclick="addComment()" class="btn btn-primary btn-lg"> Submit</button>
+						<button type="button" onclick="reset()" class="btn btn-danger btn-lg">Reset</button>
+					</div>
+				</form>
+				<ul id="commentList" class="list-group"> <!-- comment is added here -->
+				</ul>
+
+				
+			</div>	
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Jquery -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Javascript -->
+ <script src="js/bootstrap.js"></script>
+ 
+<script type="text/javascript" src="js/main.js"></script> 
+
+</body>
+</html>
